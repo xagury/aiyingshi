@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+  height: 100%; }
+
+input {
+  outline: none; }
+
+textarea {
+  outline: none; }
+
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select, td {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 12px  "宋体";
+  word-wrap: break-word; }
+
+a, u, s, del {
+  color: #666;
+  text-decoration: none; }
+
+fieldset, a img, .bor0 {
+  border: 0; }
+
+i, em, b {
+  font-style: normal;
+  font-weight: 100; }
+
+li {
+  list-style: none; }
+
+img {
+  vertical-align: middle; }
+
+table {
+  border-collapse: collapse; }
+
+.ind2 {
+  text-indent: 2em; }
+
+.r {
+  float: right; }
+
+.l {
+  float: left; }
+
+.valign {
+  text-align: center; }
+
+.valign img {
+  vertical-align: middle; }
+
+.valign:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%; }
+
+.space {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.clear {
+  zoom: 1; }
+
+/*解决ie6 7*/
+.clear:before {
+  content: "";
+  display: table; }
+
+/*解决第一个子元素margin-top向上传递问题*/
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+  visibility: hidden; }
+
+header {
+  margin: 0 auto;
+  width: 963px; }
+  header img {
+    width: 140px; }
+
+main .loginTop {
+  font-size: 16px;
+  color: #FFF;
+  background: url(../images/zuce_05.jpg) no-repeat;
+  width: 963px;
+  height: 31px;
+  text-indent: 16px;
+  line-height: 31px;
+  font-weight: bold;
+  margin: 0px auto;
+  margin-top: 3px; }
+
+main .loginMiddle {
+  width: 919px;
+  border: 2px solid #58cce9;
+  margin: 0px auto;
+  padding: 20px; }
+  main .loginMiddle form .formLeft {
+    float: left;
+    width: 500px;
+    height: 302px;
+    margin: 0px auto;
+    margin-top: 6px; }
+    main .loginMiddle form .formLeft table {
+      width: 80%;
+      margin-left: 40px; }
+      main .loginMiddle form .formLeft table tr td:first-child {
+        width: 30%;
+        text-align: right;
+        font-size: 13px;
+        font-family: "微软雅黑"; }
+      main .loginMiddle form .formLeft table tr td:nth-child(2) {
+        width: 70%;
+        height: 45px;
+        padding-left: 3px;
+        color: #000;
+        font-family: "微软雅黑"; }
+        main .loginMiddle form .formLeft table tr td:nth-child(2) input {
+          width: 208px;
+          height: 24px;
+          border: 1px solid #aeaeae;
+          padding-left: 2px;
+          color: #999999; }
+        main .loginMiddle form .formLeft table tr td:nth-child(2) .check {
+          width: 13px;
+          height: 13px;
+          cursor: default;
+          margin: 3px 3px 3px 4px; }
+        main .loginMiddle form .formLeft table tr td:nth-child(2) a {
+          text-decoration: underline;
+          color: #8b8b8b;
+          margin-left: 3px; }
+        main .loginMiddle form .formLeft table tr td:nth-child(2) .yzm {
+          width: 114px;
+          height: 24px;
+          border: 1px solid #aeaeae;
+          padding-left: 2px;
+          color: #999999; }
+        main .loginMiddle form .formLeft table tr td:nth-child(2) .code {
+          height: 24px;
+          width: 120px;
+          padding: 1px;
+          text-align: center;
+          display: inline-block;
+          background-color: #b1b1b1;
+          cursor: pointer;
+          font-size: 20px;
+          font-weight: bold;
+          opacity: 0.6; }
+      main .loginMiddle form .formLeft table tr:last-child td {
+        height: 16px;
+        background: url(../images/linnnnn.jpg) repeat-x; }
+  main .loginMiddle form .formRight {
+    width: 370px;
+    margin-left: 22px;
+    height: 320px;
+    padding-left: 15px;
+    border-left: 1px solid #d9d9d9;
+    color: #8b8b8b;
+    position: relative;
+    font-family: "微软雅黑";
+    font-size: 12px; }
+    main .loginMiddle form .formRight h3 {
+      color: #000;
+      font-weight: 800; }
+    main .loginMiddle form .formRight p {
+      padding-top: 21px; }
+
+footer .footerTop {
+  color: #929292;
+  width: 963px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 36px; }
+  footer .footerTop a {
+    color: #939393;
+    font-family: "微软雅黑"; }
+
+footer .footerMiddle {
+  color: #929292;
+  width: 963px;
+  margin: 0px auto;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 900;
+  font-family: "微软雅黑"; }
+
+footer .footerBottom {
+  width: 963px;
+  margin: 0px auto;
+  text-align: center;
+  color: #ff9c00;
+  margin-top: 24px;
+  font-family: "微软雅黑"; }
+
+.bo {
+  width: auto;
+  border-bottom: 18px solid #dcf2f9; }

@@ -1,0 +1,182 @@
+@import "public";
+header{
+  margin: 0 auto;
+
+  width: 963px;
+  img{
+    width: 140px;}
+}
+main{
+  .loginTop{
+    font-size: 16px;
+    color: #FFF;
+    background: url(../images/zuce_05.jpg) no-repeat;
+    width: 963px;
+    height: 31px;
+    text-indent: 16px;
+    line-height: 31px;
+    font-weight: bold;
+    margin: 0px auto;
+    margin-top: 3px;
+  }
+  .loginMiddle{
+    width: 919px;
+    border: 2px solid #58cce9;
+    margin: 0px auto;
+    padding: 20px;
+    form{
+
+      .formLeft{
+
+        width: 500px;
+        height: 302px;
+        margin: 0px auto;
+        margin-top: 6px;
+        font-family: "微软雅黑";
+        font-size:12px;
+        a{
+          display:block;
+          float:left;
+          img{
+            width: 250px;
+            height: 302px;
+
+          }
+        }
+      }
+      .formRight{
+        width: 370px;
+        float: left;
+        margin-left: 22px;
+        height: 320px;
+        padding-left: 15px;
+        border-left: 1px solid #d9d9d9;
+        color: #8b8b8b;
+        position: relative;
+        table{
+          width: 100%;
+
+          tr{
+            td:first-child{
+              width:25%;
+              text-align:right;
+              font-size: 13px;
+              font-family: "微软雅黑";
+            }
+            td:nth-child(2){
+              width:75%;
+              height: 45px;
+              padding-left:3px;
+              color:#000;
+              font-family: "微软雅黑";
+              img{
+                cursor:pointer;
+              }
+              input{
+                width: 208px;
+                height: 24px;
+                border: 1px solid #aeaeae;
+                padding-left: 2px;
+                color: #999999;
+              }
+              .check{
+                width:13px;height:13px;
+                cursor: default;
+                margin: 3px 3px 3px 4px;
+              }
+              a{
+                text-decoration: underline;
+                color: #8b8b8b;
+                margin-left:3px;
+              }
+              .yzm{
+                width:114px;
+                height: 24px;
+                border: 1px solid #aeaeae;
+                padding-left: 2px;
+                color: #999999;
+
+              }
+              .code{
+                height:24px;
+                width: 120px;
+                padding: 1px;
+                text-align: center;
+                display: inline-block;
+                background-color: rgb(177, 177, 177);
+                cursor: pointer;
+                font-size:30px;
+                font-weight: bold;
+                opacity: 0.6;
+              }
+            }
+            td.innner{
+              background: url(../images/linnnnn.jpg) no-repeat;
+              height:10px;
+            }
+            td.agreen{
+              padding-left: 28px;
+              text-align:left;
+              font-size:12px;
+              a{
+                color: #AEAEAE;
+                text-decoration: none;
+              }
+            }
+            td.pik{
+              margin:0;
+              padding-top: 15px;
+              padding-left: 28px;
+              font-size:12px;
+              a{
+                color: #59CCE9;
+                font-size:12px;
+              }
+            }
+            td.last{
+              text-align: center;
+            }
+
+          }
+
+        }
+      }
+    }
+  }
+
+}
+footer{
+  .footerTop{
+    color: #929292;
+    width: 963px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 36px;
+    a{
+      color: #939393;
+      font-family: "微软雅黑";
+    }
+  }
+  .footerMiddle{
+    color: #929292;
+    width: 963px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 900;
+    font-family: "微软雅黑";
+  }
+  .footerBottom{
+    width: 963px;
+    margin: 0px auto;
+    text-align: center;
+    color: #ff9c00;
+    margin-top: 24px;
+    font-family: "微软雅黑";
+  }
+}
+.bo{
+  width: auto;
+  border-bottom: 18px solid #dcf2f9;
+}
+
